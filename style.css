@@ -1,0 +1,75 @@
+body{
+  background-color: black;
+    font-family: 'Roboto Slab';
+    padding: 10px;
+}
+img{
+    width: 350px;
+    height: 325px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  min-height: 400px;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1em;
+}
+.wave_red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave_red svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+.wave_red .shape-fill {
+  fill:  rgb(160, 47, 47);
+}
+
+.wave_blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave_blue svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.wave_blue .shape-fill {
+  fill:  rgb(30, 30, 114);
+}
+
+.red{
+  background-color: rgb(160, 47, 47);
+}
+.blue{
+  background-color: rgb(30, 30, 114);
+}
+
